@@ -1,1 +1,454 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --azul: #006BD0;
+    --azul-claro: #81C2FF;
+    --celeste: #F4FBFE;
+    --celeste-alegre: #6DC3EC;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* barra de desplazamiento*/
+body::-webkit-scrollbar {
+    width: 12px;          
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--celeste);    
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--celeste-alegre);   
+    border-radius: 20px;     
+    border: 3px solid var(--celeste-alegre);  
+  }
+
+.a-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.a-link:hover{
+    color: var(--celeste-alegre);
+    transition: .8s ease;
+}
+
+a{
+    text-decoration: none;
+    color: var(--azul);
+}
+a:hover{
+    color: aliceblue;
+}
+
+
+header{
+    font-family: 'Dosis', sans-serif;
+    position:fixed;
+    display:block;
+    top: 0;
+    background-color: var(--azul);
+    color: aliceblue;
+    width: 100%;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: aliceblue;
+    float: left;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-left: 0;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.boton-resp{
+    background-color: var(--azul);
+    color: aliceblue;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: space-between;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-weight: 200;
+    font-size: 18px;
+    
+}
+
+.link {
+    padding: 0 1em;
+}
+
+
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icono{
+    font-size: 25px;
+    padding: 0 1em 0 0;
+}
+
+
+
+.log{
+    padding-right: 1em;
+    font-family: 'Dosis', sans-serif;
+}
+
+button{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 80px 80px 80px 80px;
+    margin: 10px;
+    border: solid 2px aliceblue;
+    background-color:aliceblue;
+    color: var(--azul);
+}
+
+button:hover{
+    background-color: var(--azul);
+    border: solid 2px aliceblue;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .6s ease;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--azul);
+}
+
+.img-logo img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position:inherit;
+    padding: 10% 5%;
+    height: 100%;
+    background-image: url("./assets/img/banner/codigodes.png");
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: var(--azul-claro);
+}
+
+.perfil h2{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.perfil img{
+    border-radius: 50%;
+    border: 3px solid var(--azul-claro);
+    position:static;
+   
+}
+
+.descripcion{
+    position:static;
+    margin: 2em 4em;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--azul-claro);
+}
+
+.descripcion p{
+   font-weight: 800;
+
+}
+
+
+.seccion{
+   padding: 2% 5%;
+}
+
+.experiencias{
+    background-color: var(--celeste);
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 2em;
+    line-height: 40px;
+}
+
+.exp-desc{
+    line-height: 25px;
+}
+
+.seccion-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seccion-icono {
+    padding-right: 10px;
+}
+
+.edu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 2em;
+    line-height: 30px;
+}
+
+.edu-izq{
+  padding-right: 50px;
+}
+
+.skills{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--celeste);
+}
+
+.skill{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-top{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+
+.skill-bottom{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+
+.icono-skill{
+    font-size: 50px;
+    padding: 1em;
+}
+
+.mensaje{
+  display: none;
+  background-color: var(--celeste-alegre);
+  border-radius: 80px 80px 80px 80px;
+  padding: 5px 0;
+  color: white;
+  font-weight: 500;
+}
+
+.icono-skill:hover{
+    color: var(--celeste-alegre);
+    cursor: pointer;
+    transition: .8s ease;
+}
+
+.skill:hover .mensaje{
+   display: block;
+}
+
+.proyecto{
+    padding: 2em 0;
+    line-height: 30px;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+}
+
+.tag{
+    background-color: var(--celeste);
+    color: var(--azul);
+    margin: 10px 20px 10px 0px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px -10px var(--celeste-alegre);
+}
+
+.btn{
+    color: var(--azul);
+}
+
+.btn:hover{
+    background-color: var(--azul);
+}
+
+.btn-proyecto{
+    margin-left: 0;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--celeste);
+    padding: 3em 0;
+    justify-content: space-around;
+}
+
+.redes-footer{
+    padding-bottom: 2em;
+}
+
+.a-link-footer{
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.a-link-footer:hover{
+    color: var(--celeste-alegre);
+    transition: .8s ease;
+}
+
+
+@media (max-width: 1260px){
+    .checkbtn{
+        display: block;
+    }
+    .about{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    
+    .perfil h2{
+        padding: 0;
+    }
+    ul{
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+        background-color: var(--azul);
+        overflow-y: auto;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        color: var(--azul);
+    }
+    nav ul li a {
+        font-size: 20px;
+        color: var(--azul);
+    }
+    #check:checked ~ ul{
+       left: 0;
+    }
+
+    #check:checked nav ul li a{
+        left: 0;
+     }
+
+    
+    
+    .nav-bar-visible{
+        left: 0;
+    }
+     
+    .skill-top{
+
+        flex-direction: column;
+
+    }
+    
+    .skill-bottom{
+
+        flex-direction: column;
+
+    }
+
+    .exp-desc p{
+
+        font-size: 8px;
+        
+    }
+
+
+}
