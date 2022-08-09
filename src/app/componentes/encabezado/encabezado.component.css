@@ -1,0 +1,4 @@
+.seleccionado{
+    color: var(--celeste-alegre);
+    background-color: red;
+}

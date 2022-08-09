@@ -1,0 +1,27 @@
+<div class="seccion educacion" id="educacion">
+    <h2>Educación</h2>
+    <div class="edu" *ngFor="let educacion of educacionList">
+      <div class="edu-izq">
+        <img [src]="educacion.imagen" alt="">
+      </div>
+
+      <div class="edu-der">
+        <h3>{{educacion.titulo}}</h3>
+        <div class="seccion-div">
+          <i class="seccion-icono fas fa-landmark"></i>
+          <p>{{educacion.institucion}}</p>
+        </div>
+
+        <div class="seccion-div">
+          <i class="seccion-icono fas fa-calendar"></i>
+          <p>{{educacion.fecha}}</p>
+        </div>
+
+        <div class="seccion-div">
+          <i class="seccion-icono fas fa-map-marker-alt"></i>
+          <p>{{educacion.lugar}}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>

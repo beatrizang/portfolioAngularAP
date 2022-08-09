@@ -1,0 +1,87 @@
+{
+    "barra":[{
+            "titulo":"ACERCA",
+            "id":"#about"
+        },
+        {    
+            "titulo":"EXPERIENCIA",
+            "id":"#experiencias"
+        },
+        {    
+            "titulo":"EDUCACIÓN",
+            "id":"#educacion"
+        },
+        {    
+            "titulo":"SKILLS",
+            "id":"#skills"
+        },
+        {    
+            "titulo":"PROYECTOS",
+            "id":"#proyectos"
+        }],
+    "nombre":"Beatriz",
+    "apellido":"Garcia",
+    "github":"https://github.com/beatrizang",
+    "linkedin":"https://www.linkedin.com/in/beatriz-garcia-402809236/",
+    "logo":"././img/perfil/perfil-pequeño.png",
+    "educacion":[{
+        "titulo":"Universitario - Ingeniería en Computación",
+        "institucion":"UNT - Facultad de Ciencias Exactas y Tecnología",
+        "fecha":"2014 - Actual",
+        "lugar":"San Miguel de Tucumán",
+        "imagen":"./assets/img/educacion/logo_unt.png"
+    },
+    {
+        "titulo":"Curso - Argentina Programa",
+        "institucion":"Ministerio de Desarrollo Productivo Argentina",
+        "fecha":"2021 - Actual",
+        "lugar":"Remoto",
+        "imagen":"./assets/img/educacion/argprog.png"
+    },
+    {
+        "titulo":"Curso - Responsive Web Design Certification",
+        "institucion":"FreeCodeCamp",
+        "fecha":"11/2021 - 01/2022",
+        "lugar":"Remoto",
+        "imagen":"./assets/img/educacion/frecodecamp.png"
+    },
+    {
+        "titulo":"Curso - Gestión de Proyectos con Metodologías Ágiles y Enfoques Lean",
+        "institucion":"Fundación Telefónica",
+        "fecha":"02/2021 - 03/2022",
+        "lugar":"Remoto",
+        "imagen":"./assets/img/educacion/fundaciontel.png"
+    }],
+    "experiencia":[{
+        "titulo":"Pasantía",
+        "lugar":"IPSST - Instituto de Previsión y Seguridad Social de Tucumán",
+        "puesto":"Mesa de Ayuda",
+        "fecha":"01/05/2021 - 31/10/2021",
+        "descripcion":"Realicé mi pasantía, donde las tareas que realizaba era ayudar a prestadores a manejar el sistema o algún incidente a través de comunicación telefónica o vía mail, dar capacitación si alguno lo requería, resolver incidentes en la oficina relacionados con aparatos electrónicos (impresora, computadoras)."
+    }],
+    "proyectos":[{
+        "titulo":"Clipboard Landing Page",
+        "fecha":"Marzo 2022",
+        "descripcion":"Realice esta landing page como practica para la pagina Frontend Mentor.",
+        "tecnologias":["HTML5","CSS3","SASS"],
+        "pagina":"https://beatrizang.github.io/clipboard-landing-page/",
+        "repo":"https://github.com/beatrizang/clipboard-landing-page"
+    },
+    {
+        "titulo":"Huddle Landing Page",
+        "fecha":"Marzo 2022",
+        "descripcion":"Realice esta landing page como practica para la pagina Frontend Mentor.",
+        "tecnologias":["HTML5","CSS3","SASS"],
+        "pagina":"https://beatrizang.github.io/huddle-landing-page-with-curve-sections/",
+        "repo":"https://github.com/beatrizang/huddle-landing-page-with-curve-sections"
+    },
+    {
+        "titulo":"Página MPA",
+        "fecha":"Febrero 2022",
+        "descripcion":"Realice esta pagina con multiples paginas HTML como una práctica extra para Argentina Programa.",
+        "tecnologias":["HTML5","CSS3"],
+        "pagina":"https://beatrizang.github.io/pagina-practica-ap/",
+        "repo":"https://github.com/beatrizang/pagina-practica-ap" 
+    }
+]
+}

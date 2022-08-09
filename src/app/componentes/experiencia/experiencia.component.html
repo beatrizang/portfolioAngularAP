@@ -1,0 +1,23 @@
+<div class="seccion experiencias" id="experiencias">
+    <h2>Experiencia Laboral</h2>
+    <div class="experiencia" *ngFor="let experiencia of experienciaList">
+      <div class="exp-titulo">
+        
+
+      </div>
+      <div class="exp-descripcion">
+        <h3>{{experiencia.titulo}}</h3>
+        <h3>{{experiencia.lugar}}</h3>
+        <div class="seccion-div">
+          <i class="seccion-icono fas fa-user"></i>
+          <p>{{experiencia.puesto}}</p>
+        </div>
+        <div class="seccion-div">
+          <i class="seccion-icono fas fa-calendar"></i>
+          <p>{{experiencia.fecha}}</p>
+        </div>
+
+        <p class="exp-desc">{{experiencia.descripcion}}</p>
+      </div>
+    </div>
+  </div>

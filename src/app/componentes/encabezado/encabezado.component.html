@@ -1,0 +1,30 @@
+<header class="nav-bar" id="nav">
+  <div class="logo">
+    <div class="img-logo">
+      <img src="../../../assets/img/APLogo-20-20.png" alt="">
+    </div>
+  </div>
+
+<nav class="barra">
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn" aria-label="Menú">
+    <i class="fas fa-bars"></i>
+  </label>
+  <ul *ngFor="let item of barraList">
+    <li class="link"><a class="a-link" [href]="item.id">{{item.titulo}}</a></li>
+  </ul>
+</nav>
+<div class="redes">
+  <div class="iconos">
+    <a class="a-link" [href]="miPortfolio.github" target="_blank" rel="noopener noreferrer">
+      <i class="icono fab fa-github"></i>
+    </a>
+    <a class="a-link" [href]="miPortfolio.linkedin" target="_blank" rel="noopener noreferrer">
+      <i class="icono fab fa-linkedin"></i>
+    </a>
+  </div>
+  <div class="log">
+    <button>LOG IN</button>
+  </div>
+</div>
+</header>
